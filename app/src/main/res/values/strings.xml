@@ -12,4 +12,12 @@
     <string name="log_info">이메일 회원 가입  |  이메일 로그인</string>
     <string name="set_tv">내 설정</string>
     <string name="userlog_intro">제리아빠님, google로 로그인했어요</string>
+    <string name="address_info"><b>주소 정보</b></string>
+    <string name="address_info_name">서울시 광진구 중곡동</string>
+    <string name="modify">수정하기</string>
+    <string name="alarm">알림</string>
+    <string name="feed_alarm">피드 알림</string>
+    <string name="msg_alarm">메세지 알림</string>
+    <string name="friend_alarm">친구 활동 알림</string>
+    <string name="marketing_alarm">마케팅 정보 알림</string>
 </resources>
