@@ -30,9 +30,7 @@ public class thirdActivity extends AppCompatActivity {
         spannableString.setSpan(new ForegroundColorSpan(Color.parseColor("#028A0F")), start, end, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         textview.setText(spannableString);
-        // textview = "제리아빠" 글자색(초록색) 설정
-
-
+        // textview = "제리아빠" 글자색(초록색) 지정
 
 
 

@@ -8,54 +8,57 @@
         android:id="@+id/tro_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:layout_marginBottom="400dp"
-        android:text="@string/tro"
-        android:textStyle="bold"
-        android:textSize="50sp"
         android:fontFamily="@font/noto_re"
-        />
+        android:text="@string/tro"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
 
     <TextView
         android:id="@+id/tro_tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/tro_tv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="400dp"
+        android:fontFamily="@font/noto_re"
         android:text="@string/tro_info"
         android:textSize="20sp"
-        android:fontFamily="@font/noto_re"
-        android:layout_marginBottom="580dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tro_tv"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/tro_character"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
         android:background="@drawable/character"
-        app:layout_constraintTop_toBottomOf="@+id/tro_tv2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="280dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/tro_tv2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
         android:id="@+id/join_icons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/logo"
-        app:layout_constraintTop_toBottomOf="@+id/tro_character"
+        app:flow_firstVerticalBias="0.3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="150dp"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/tro_character"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/email_info_tv"
@@ -68,7 +71,7 @@
         android:text="@string/log_info"
         android:textSize="11sp"
         android:textColor="@color/gray"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="40dp"
         android:fontFamily="@font/noto_re"
         />
 
