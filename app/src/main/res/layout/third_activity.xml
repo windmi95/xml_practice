@@ -228,7 +228,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/app_info_name_bar"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:background="@color/white"
@@ -238,8 +238,8 @@
 
         <TextView
             android:id="@+id/app_info_name_intro"
-            android:layout_width="44dp"
-            android:layout_height="21dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
@@ -255,8 +255,8 @@
 
         <TextView
             android:id="@+id/app_version_info"
-            android:layout_width="25dp"
-            android:layout_height="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:bufferType="spannable"
             android:text="@string/app_version"
             android:textSize="15sp"

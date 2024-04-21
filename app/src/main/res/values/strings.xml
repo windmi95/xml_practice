@@ -9,6 +9,10 @@
     <string name="email_info"><u>이메일로 로그인하기</u></string>
     <string name="tro">Trost.</string>
     <string name="tro_info">마음도 관리가 필요하니까</string>
+    <string name="apple_btn_title">Apple</string>
+    <string name="facebook_btn_title">Facebook</string>
+    <string name="naver_btn_title">naver</string>
+    <string name="kakaotalk_btn_title">Kakaotalk</string>
     <string name="log_info">이메일 회원 가입  |  이메일 로그인</string>
     <string name="set_tv">내 설정</string>
     <string name="userlog_intro">제리아빠님, google로 로그인했어요</string>
