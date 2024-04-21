@@ -19,6 +19,16 @@
         </activity>
 
         <activity
+            android:name=".SubActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
             android:name=".thirdActivity"
             android:exported="true">
         </activity>
@@ -26,11 +36,6 @@
         <activity
             android:name=".quadActivity"
             android:exported="true">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
     </application>

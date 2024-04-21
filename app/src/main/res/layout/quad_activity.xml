@@ -23,7 +23,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/scroll"
             app:layout_constraintTop_toTopOf="parent"
-
+            android:paddingTop="24dp"
             >
 
             <TextView
